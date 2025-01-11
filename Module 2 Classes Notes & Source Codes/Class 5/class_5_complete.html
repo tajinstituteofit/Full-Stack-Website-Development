@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Class 5</title>
+</head>
+<body>
+    <!-- Images -->
+     <h2>Images</h2>
+    <img src="./Images/Thumbnail Design.jpg" alt="" width="300" height="200">
+    <img src="https://nishatlinen.com/cdn/shop/files/295x295-naqsh_ec9f7c73-2cbf-4ec6-8424-e67e0bdb642c.jpg?v=1731564088&width=400" alt="">
+
+    <br>
+
+    <h2>Video</h2>
+    <!-- Video Element -->
+    <video src="./video.mp4" width="600" controls muted poster="./Images/My Image.png"></video>
+    
+    <video controls muted poster="./Images/My Image.png" width="600">
+        <source src="./video.mp4" type="video/mp4">
+    </video>
+
+
+    <!-- Audio -->
+    <h2>Audio</h2>
+    <audio src="./audio.mp3" controls></audio>
+
+    <audio controls>
+        <source src="./audio.mp3" type="audio/mp3">
+    </audio>
+
+    <!-- SVG Tag -->
+    <h2>SVG Element</h2>
+    <svg width="400" height="180">
+        <rect x="20" y="20" rx="40" ry="40" width="150" height="150"
+        style="fill:rgb(226, 127, 127);stroke:rgb(21, 18, 247);stroke-width:5;opacity:0.5" />
+    </svg>
+
+    <svg width="100" height="100">
+        <circle cx="50" cy="50" r="40" stroke="green" stroke-width="8" fill="yellow" />
+    </svg>
+
+    <!-- iframe Element -->
+    <h2>IFrame Element</h2>
+    <iframe src="../Class 4/index.html" height="400" width="800"></iframe>
+    <iframe src="https://tajinstitute.com.pk/" height="400px" width="800px"></iframe>
+
+    <!-- YouTube Video (Embedding YouTube Video into your own Website)-->
+    <!-- Way 1st of Embedding YouTube Video -->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Y96KhTydfiA?si=9-8mN5t4t3vl1hi6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <!-- Way 2nd of Embedding YouTube Video -->
+    <iframe src="https://www.youtube.com/embed/nfSmatMKqqE" frameborder="0" width="560" height="315" allowfullscreen></iframe>
+
+    <!-- Responsive Images -->
+    <!-- This element is used to show images based on specific screen sizes -->
+    <picture>
+      <source srcset="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSj3XUBKGjvunNb5QoFUY51aCRQhfjNEGaoNJDd--veDE_pOvOMRJY9_PF0JDvw-w84O1I&usqp=CAU" media="(min-width:1000px)">
+
+      <source srcset="https://graphicsfamily.com/wp-content/uploads/edd/2023/04/Business-Website-Banner-Design-with-White-and-Green-1180x664.jpg" media="(min-width:600px)">
+
+      <img src="https://tajinstitute.com.pk/wp-content/uploads/2022/02/webdesigndev-1024x442-1-410x260.jpg" alt="">
+    </picture>
+
+    <!-- Hyperlink -->
+    <!-- 1- Text Link -->
+    <a href="https://www.youtube.com/@tajinstitute" target="_blank">
+      My Youtube Channel
+    </a>
+    <!-- 2- Image Link -->
+    <a href="https://www.youtube.com/@tajinstitute" target="_blank">
+      <img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png" alt="" width="40px">
+    </a>
+    <!-- 3- Email Link -->
+    <a href="mailto:info@tajinstitute.com.pk" target="_blank">
+      info@tajinstitute.com.pk
+    </a>
+    <!-- 4- Bookmark Link -->
+     <a href="#footer">
+      Go to Footer Section.
+     </a>
+    <!-- 5- Absolute Link -->
+    <a href="https://en.wikipedia.org/wiki/Web_development#Responsive_design" target="_blank">
+      See my Blog on Front End Web!
+    </a>
+    <!-- 6- Relative Link -->
+    <a href="../Class 3/index.html" target="_blank">
+      See Recent Class Files.
+    </a>
+
+    <!-- Footer Section to understand the (Bookmark Links) -->
+    <h2>Footer Section</h2>
+    <div id="footer">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum ad ipsam enim molestias exercitationem a aliquam? Amet quasi facilis sed voluptatibus consectetur ex magnam ratione, eum voluptas neque excepturi pariatur, voluptate, aut ut. Culpa ea qui consectetur reiciendis nobis! Illum veniam deserunt sint deleniti laboriosam, hic quo optio quae eos totam quia quam ducimus nam at rerum explicabo labore, repellat quos facilis quaerat laudantium inventore necessitatibus amet. Sit nemo eius quod dolorum exercitationem natus, quaerat soluta hic dolor laborum adipisci repellat doloribus. A accusamus necessitatibus ipsam ullam culpa distinctio hic commodi possimus, minus earum. Doloremque facere labore consectetur minus voluptates officia officiis deserunt. Modi commodi nesciunt dicta ducimus, delectus eveniet impedit quasi porro tenetur, amet perferendis molestiae ab atque et, suscipit neque excepturi cumque velit. Omnis sed commodi blanditiis sit a, similique error, dicta modi aperiam recusandae odio est, reiciendis totam porro atque temporibus cupiditate libero pariatur alias ducimus consequuntur velit ipsam voluptatum. Modi, praesentium eveniet architecto excepturi quos, obcaecati, in enim facere laborum sunt nesciunt. Minus, voluptate. Ea qui pariatur tempora dolorem quis necessitatibus in sequi ipsum saepe? Cum itaque vitae cupiditate aperiam quod at commodi repellat accusamus repudiandae necessitatibus sit, minima, labore ut obcaecati aspernatur. Incidunt, commodi amet.
+    </div>
+</body>
+</html>
