@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Form</title>
+</head>
+<body>
+    <!-- Job Application Form -->
+     <form action="submit.php" method="post">
+        <fieldset>
+            <legend>JOB APPLICATION FORM</legend>
+
+            <label for="fullName">Full Name:</label>
+            <input type="text" name="fullName" id="fullName"  required autofocus/>
+
+            <br>
+            <br>
+
+            <label for="email">Email ID:</label>
+            <input type="email" name="email" id="email" required autofocus/>
+
+            <br>
+            <br>
+
+            <label for="phone">Phone No:</label>
+            <input type="tel" name="Phone" id="Phone" required />
+
+            <br>
+            <br>
+
+            <label for="resume">Resume:</label>
+            <input type="file" name="resume" id="resume" required/>
+
+            <br>
+            <br>
+
+            <label for="exp">Experience (in years):</label>
+            <input type="number" name="exp" id="exp" min="0" max="7" required/>
+
+            <br>
+            <br>
+
+            <fieldset>
+                <legend>Skills</legend>
+                 <input type="checkbox">HTML
+                 <input type="checkbox">CSS
+                 <input type="checkbox">JavaScript
+                 <input type="checkbox">Database
+            </fieldset>
+
+            <br>
+            <br>
+
+            <label for="edu">Highest Education</label>
+            <select name="edu" id="edu">
+                <option value="Matric">Matric</option>
+                <option value="Inter">Inter</option>
+                <option value="BS Graduate">BS Graduate</option>
+                <option value="Masters">Masters</option>
+                <option value="Doctorate">Doctorate</option>
+            </select>
+            
+            <br>
+            <br>
+
+            <fieldset>
+                <legend>Availability</legend>
+                 <input type="radio">Full-time
+                 <br>
+                 <input type="radio">Part-time
+            </fieldset>
+
+            <br>
+            <br>
+            <label for="comment">Additional Comments:</label>
+            <br>
+            <textarea name="comment" id="comment" rows="10" cols="100" placeholder="Give your extra comments in this section."></textarea>
+
+            <br>
+            <br>
+
+            <input type="submit" value="Register Now">
+
+
+        </fieldset>
+     </form>
+</body>
+</html>

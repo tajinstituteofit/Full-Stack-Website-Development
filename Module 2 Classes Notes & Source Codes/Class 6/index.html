@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Class-6</title>
+</head>
+<body>
+    <!-- HTML Tables (For Content Layouting)-->
+    <!-- 
+    <table></table> = for overall table structure
+    <tr> = making table row 
+    <td> = making table data/column
+    <th> = making table header row (Top Row)
+    <thead> = for making table upper level head part area
+    <tbody> = for making table mid level body part area
+    <tfoot> = for making table lower level footer part area
+    -->
+    
+  <table border="1" width="50%" height="250" bgcolor="khaki" cellspacing="8" cellpadding="10">
+    <!-- Header Section of Table -->
+    <thead>
+        <tr>
+            <th>Roll no.</th>
+            <th>Name</th>
+            <th>Class</th>
+            <th>City</th>
+        </tr>
+    </thead>
+    
+    <!-- Main Body Section of Table -->
+     <tbody>
+        <tr>
+            <td>001</td>
+            <td>Haroon Khan</td>
+            <td>Web Dev</td>
+            <td rowspan="4">Islamabad</td>
+        </tr>
+        <tr>
+            <td>002</td>
+            <td>Ahsan Shafique</td>
+            <td>Web Dev</td>
+           
+        </tr>
+        <tr>
+            <td>003</td>
+            <td>Noman Khan</td>
+            <td>Web Dev</td>
+            
+        </tr>
+        <tr>
+            <td>004</td>
+            <td>Muhammad Ali</td>
+            <td>Web Dev</td>
+        </tr>
+     </tbody>
+   
+    <!-- Footer Section of Table -->
+     <tfoot>
+        <tr>
+            <td colspan="3">SUB TOTAL RANGE</td>
+            <td>Total 4</td>
+        </tr>
+     </tfoot>
+   
+  </table>
+</body>
+</html>
